@@ -70,6 +70,7 @@ def get_inverse_IP(IP):
     for i in range(len(IP)):
         IP_inv.append(IP.index(i+1)+1)
     return IP_inv
+
 print("S-DES sender initialized.\n")
 PT = input("Enter the 8-bit plain text in binary: ")
 key = input("Enter the 10-bit key in binary: ")
